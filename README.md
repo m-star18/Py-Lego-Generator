@@ -1,4 +1,4 @@
-# Py-Logo-Generator
+# Py-Lego-Generator
 Generate LEGO-ized from Image and Video
 
 ## demo
