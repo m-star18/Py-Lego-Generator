@@ -20,5 +20,4 @@ jobs:
         pip install pylint
     - name: Analysing the code with pylint
       run: |
-        pylint $(git ls-files 'src/image2lego.py --input "https://github.com/m-star18/Py-Lego-Generator/blob/main/demo/snow.JPG"')
-        pylint $(git ls-files 'src/video2lego.py --input "https://github.com/m-star18/Py-Lego-Generator/blob/main/demo/fight.MP4"')
+        pylint $(git ls-files *.py)
